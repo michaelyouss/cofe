@@ -194,7 +194,7 @@
 
 .welcom .up .bu button{
     position: absolute;
-    top: 410px;
+    top: 322px;
     text-align: center;
     left: 50%;
     transform: translate(-50%);
@@ -222,7 +222,19 @@
 .cont .up p a{
     color: #b17048;
 }
-
+.cont .up .icon{
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    left: 50%;
+    transform: translate(-50px);
+    top: 243px;
+    font-size: 30px;
+    color: white;
+}
+.cont .up .icon i{
+    margin-left: 10px;
+}
 
 
 
