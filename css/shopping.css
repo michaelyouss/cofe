@@ -31,7 +31,7 @@ root{
     position: absolute;
     top: 50%;
     transform: translatey(-50%);
-    right: -76px;
+    right: --82px;
     color: white;
 }
 .shopping nav{
@@ -67,19 +67,72 @@ root{
     color: white;
     font-size: 20px;
 }
-.shopping nav i{
+/* .shopping nav i{
     position: absolute;
     top: 50%;
     transform: translatey(-50%);
     padding-top: 38px;
     right: 0;
     color: white;
-    
+
+} */
+#check {
+    display: none;
 }
-@media(max-width:767px){
-    .shopping nav ul{
+
+.checkbox #bars {
+    color: var(--color-i);
+}
+
+@media(min-width: 768px) {
+    .shopping #bars {
         display: none;
     }
+
+}
+@media(max-width:768px) {
+    .shopping nav ul {
+       
+        /* position: absolute; */
+        top: 270px;
+        background-color: rgb(0, 0, 0, 75%);
+        position: fixed;
+        text-align: center;
+        width: 50%;
+        height: 50vh;
+        border-radius: 15px;
+         /* left: 147px;  */
+        transition: 0.5s;
+        z-index: 7;
+        margin-left: -147px;
+        right: -248px;
+    }
+
+    .shopping nav ul li {
+        display: block;
+        padding: 9px 16px;
+        position: relative;
+        right: 20px;
+        margin: 10px 0;
+        
+    } 
+    nav i{
+        color: white;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%);
+        padding-top: 18px;
+    }
+
+    #check:checked~ul {
+        left: 322px;
+    }
+}
+
+@media(max-width:767px){
+    /* .shopping nav ul{
+        display: none;
+    } */
     .shopping .logo{
         right: 58px;
     }
