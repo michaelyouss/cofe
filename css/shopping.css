@@ -9,7 +9,7 @@ root{
 .shopping{
     background: linear-gradient(to bottom, rgb(111, 80, 60), rgb(80, 54, 39), rgb(53, 33, 22), rgb(35, 18, 10));
     width: 100%;
-    height: 100vh;
+   min-height: 100vh;
 }
 .container{
     padding-left: 30px;
@@ -137,3 +137,110 @@ root{
         right: 58px;
     }
 }
+/* ======= */
+/* Start search */
+ .container .search{
+    position: relative;
+    height: 121px;
+    
+ }
+ .container .search input{
+    position: absolute;
+    top: 64px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 340px;
+    background-color: #938072;
+    border: none;
+    outline: none;
+    padding: 5px 0;
+    border-radius: 7px;
+ }
+ @media(max-width:767px){
+    .container .search input{
+        width: 250px;
+    }
+    .container .search i{
+        position: absolute;
+        left: 1px;
+        top: 69px;
+    }
+ }
+ .container .search i{
+    color: white;
+    position: absolute;
+    left: 285px;
+    top: 69px;
+ }
+ .container .coofe {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(237px, 1fr));
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+ }
+  @media(max-width:767px){
+    .container .coofe {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(102px, 1fr));
+        text-align: center;
+        margin-top: 20px;
+ }
+}
+.container .coofe .box{
+    position: relative;
+    text-align: center;
+    width: 137px;
+    height: 150px;
+    margin-bottom: 13px;
+    border-radius: 11px;
+    left: 50%;
+    transform: translate(-50%);
+ }
+ .container .coofe .box .text{
+    background-color: #715640;
+    margin-top: -3px;
+    height: 72px;
+    position: relative;
+    border-radius: 4px;
+ }
+ .container .coofe .box .text a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #938072;
+    padding: 6px 24px;
+    position: relative;
+    text-align: center;
+    margin: 6px 0;
+    top: 12px;
+ }
+ .container .coofe .box .text p{
+    color: #fff;
+    position: absolute;
+    bottom: 8px;
+    left: 7px;
+    font-size: 21px;
+ }
+
+ /*.container .coofe .box a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    position: relative;
+    bottom: -8px;
+    background-color: #141312;
+    padding: 5px 2px;
+    border-radius: 5px;
+ }*/
+ /*.container .coofe .box p{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    bottom: 9px;
+ }*/
+ .container .coofe .box img{
+    width: 137px;
+    height: 83.64px;
+    text-align: center;
+ } 
