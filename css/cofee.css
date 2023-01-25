@@ -74,22 +74,16 @@
     transform: translate(-50%);
     border: none;
     background-color: #b17048;
-    padding: 0 161px;
     border-radius: 5px;
+    width: 250px;
+    padding: 5px 0;
 }
-.star-imgo .text button::before{
-    content: "> > >";
-    position: absolute;
-    top: 24%;
-    right: 17px;
-    color: white;
-    font-size: 17px;
-}
+
 .star-imgo .text button a{
     color: wheat;
     text-decoration: none;
     position: relative;
-    right: 141px;
+    right: 0;
 }
 /* ======================================================================== */
 /* cofee-tow */
