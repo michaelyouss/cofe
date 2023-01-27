@@ -62,6 +62,9 @@
 } 
 
 /* start text */
+.text{
+    margin: 50px 0;
+}
 .text h3{
     color: white;
     margin-top: 10px;
@@ -98,7 +101,7 @@ background-color: #ad6e46;
     display: inline-block;
     position: absolute;
     right: 128px;
-    top: 191px;
+    top: 215px;
 }
 .text .r p{
     background-color: #8e8887;
@@ -118,7 +121,7 @@ background-color: #ad6e46;
 }
 @media(max-width:767px){
     .text .r {
-        top: 529px;
+        top: 578px;
         right: 63px;
     }
 
