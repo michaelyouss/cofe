@@ -9,7 +9,7 @@
 .hot-creamy{
     background: linear-gradient(to bottom, rgb(111, 80, 60), rgb(80, 54, 39), rgb(53, 33, 22), rgb(35, 18, 10));
     width: 100%;
-    min-height: 100vh;
+    max-height: 100vh;
 }
 .container{
     padding-right: 15px;
