@@ -1,5 +1,7 @@
 root {
     --color: #b17048;
+    --background-color: #715640;
+    --font-color:#fff;
 }
 
 * {

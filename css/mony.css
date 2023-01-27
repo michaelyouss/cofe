@@ -1,0 +1,138 @@
+:root{
+    --color:#b17048;
+}
+
+*{
+ box-sizing:border-box ;
+ margin: 0;
+}
+.hot-creamy{
+    background: linear-gradient(to bottom, rgb(111, 80, 60), rgb(80, 54, 39), rgb(53, 33, 22), rgb(35, 18, 10));
+    width: 100%;
+    min-height: 100vh;
+}
+.container{
+    padding-right: 15px;
+    padding-left: 22px;
+}
+.container .imgg{
+    position: relative;
+    top:50%;
+    width: 323px;
+    height: 345px;
+    top:10pc;
+}
+
+@media(max-width:767px){
+    .container .imgg{
+        width: 100%;
+        top: 0;
+    }
+    .hot-creamy .container .hot .imgg img{
+        width: 250px;
+    }
+}
+.hot-creamy .container .hot .imgg img{
+    width: 323px;
+    height: 345px;
+}
+.hot-creamy .container .hot{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(336px, 1fr));
+}
+.hot-creamy .container .hot .imgg .fa-heart{
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 7px;
+    margin: 10px;
+}
+.hot-creamy .container .hot .imgg .fa-solid{
+    color: #fff;
+    position: absolute;
+    padding: 10px;
+} 
+
+/* start text */
+.text h3{
+    color: white;
+    margin-top: 10px;
+}
+.text p{
+    color: wheat;
+    margin-top: 13px;
+}
+.text ul{
+    text-align: center;
+    padding: 10px 0 10px;
+}
+.text ul li{
+    display: inline-block;
+    background-color: #634029;
+    padding: 5px 15px;
+    border-radius: 7px;
+    color: wheat;
+    transition: 0.3s;
+}
+.text ul li:hover{
+background-color: #ad6e46;
+}
+.text .mn p{
+    color: white;
+    font-size: 21px;
+    display: inline-block;
+    padding: 0 10px;
+}
+.text .mn p .mm{
+    text-decoration-line: line-through;
+}
+.text .r{
+    display: inline-block;
+    position: absolute;
+    right: 128px;
+    top: 191px;
+}
+.text .r p{
+    background-color: #8e8887;
+    padding: 5px 24px;
+    border-radius: 7px;
+}
+.text .r p::after{
+    content: "+";
+    position: absolute;
+    left: 38px;
+}
+.text .r p::before{
+    content: "-";
+    position: absolute;
+    left: 11px;
+    top: 19px;
+}
+@media(max-width:767px){
+    .text .r {
+        top: 524px;
+        right: 63px;
+    }
+
+}
+.text .About p{
+    color: white;
+    font-size: 21px;
+}
+.text button{
+    color: white;
+    background-color: #b17048;
+    border: none;
+    outline: none;
+    padding: 6px 125px;
+    position: absolute;
+    right: 80px;
+    border-radius: 7px;
+}
+@media(max-width:767px){
+    .text button{
+        padding: 7px 113px;
+        right: 31px;
+       
+    } 
+}
