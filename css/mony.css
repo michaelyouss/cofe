@@ -9,7 +9,7 @@
 .hot-creamy{
     background: linear-gradient(to bottom, rgb(111, 80, 60), rgb(80, 54, 39), rgb(53, 33, 22), rgb(35, 18, 10));
     width: 100%;
-    max-height: 100vh;
+    min-height: 105vh;
 }
 .container{
     padding-right: 15px;
@@ -114,11 +114,11 @@ background-color: #ad6e46;
     content: "-";
     position: absolute;
     left: 11px;
-    top: 19px;
+    top: 17px;
 }
 @media(max-width:767px){
     .text .r {
-        top: 524px;
+        top: 529px;
         right: 63px;
     }
 

@@ -240,6 +240,7 @@ root {
     text-align: center;
     margin: 6px 0;
     top: 12px;
+    border-radius: 7px;
 }
 
 .container .coofe .box .text p {
