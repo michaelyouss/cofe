@@ -27,14 +27,22 @@
     .container .imgg{
         width: 100%;
         top: 0;
+        margin: 0px -14px
     }
-    .hot-creamy .container .hot .imgg img{
-        width: 250px;
+    .container .hot .imgg img{
+         /* width: 357px;*/
+        height: 345px;
+        margin: -18px 0;
+        border-radius: 24px;
+        width: 100%;
     }
 }
 .hot-creamy .container .hot .imgg img{
-    width: 323px;
+    width: 363px;
     height: 345px;
+    margin: -19px 0;
+    border-radius: 24px;
+    margin-left: -11px;
 }
 .hot-creamy .container .hot{
     display: grid;
